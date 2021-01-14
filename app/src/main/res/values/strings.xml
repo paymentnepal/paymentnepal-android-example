@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PaymentNepal</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_cost">Amount:</string>
+    <string name="label_name">Name:</string>
+    <string name="default_name">Test</string>
+    <string name="default_cost">5</string>
+    <string name="label_phone">Phone:</string>
+    <string name="pay_button">Pay</string>
+    <string name="label_status">Statuus: </string>
+    <string name="default_status">Ready</string>
+    <string name="label_payment_type">Payment method: </string>
+    <string name="label_payment_type_mc">phone</string>
+    <string name="label_payment_type_card">card</string>
+    <string name="label_new_payment">new payment</string>
+
+    <string name="validation_error_title"></string>
+    <string name="validation_error_name_is_empty">Name is required</string>
+    <string name="validation_error_cost_is_empty">Amount is required</string>
+
+    <string name="label_card_limitation">Expiry date:</string>
+    <string name="label_card_number">Card number:</string>
+    <string name="label_card_holder">Card holder:</string>
+    <string name="label_card_month">Month:</string>
+    <string name="label_card_year">Year:</string>
+    <string name="label_card_cvc">CVC:</string>
+
+    <string name="status_start">Ready</string>
+    <string name="status_created">Transaction is created (%d)</string>
+    <string name="status_waiting">Waiting for payment (%d)</string>
+    <string name="status_cant_pay">Charge is failed (%d)</string>
+    <string name="status_paid">Transaction (%d) is paid</string>
+    <string name="status_cant_init">Failed to init transaction</string>
+
+    <string name="spg_acquire_url" formatted="false">https://secure.paymentnepal.com/acquire?sid=%d&amp;oid=%d&amp;op=pay</string>
+    <string name="spg_test_acquire_url" formatted="false">https://test.paymentnepal.com/acquire?sid=%d&amp;oid=%d&amp;op=pay</string>
+    <string name="payment_type_mc">mc</string>
+    <string name="payment_type_card">spg_test</string>
+    <integer name="check_timeout">3500</integer>
+
+    <integer name="paymentnepal_service_id">YOUR SERVICE ID</integer>
+    <string name="paymentnepal_key">YOUR KEY</string>
+
+</resources>
